@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, #464646, #212529);
+}
+
+header {
+  display: grid;
+  place-items: center;
+  padding: 60px 0 20px;
+
+  color: #fff;
+}
+
+img {
+  height: 200px;
+  border-radius: 100%;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  background-color: black;
+  height: 100px;
+  width: 740px;
+
+  display: grid;
+  place-items: center;
+
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.box:hover {
+  border: solid 3px white;
+  transition: .3s ease-in-out;
+}
+
+.linkedin {
+  background: linear-gradient(45deg, #0e76a8, #12a1e2);
+}
+
+.linkedin:hover {
+  background: linear-gradient(-45deg, #0e76a8, #12a1e2);
+  transition: .3s ease;
+}
+
+.github {
+  background: linear-gradient(45deg, #121213, #313135);
+}
+
+.github:hover {
+  background: linear-gradient(-45deg, #121213, #313135);
+  transition: .3s ease;
+}
+
+.telegram {
+  background: linear-gradient(45deg, #0088cc, #0aadff);
+}
+
+.telegram:hover {
+  background: linear-gradient(-45deg, #0088cc, #0aadff);
+  transition: .3s ease;
+}
+
+.whatsapp {
+  background: linear-gradient(45deg, #1b9a59, #25d078);
+}
+
+.whatsapp:hover {
+  background: linear-gradient(-45deg, #1b9a59, #25d078);
+  transition: .3s ease;
+}
+
+.box a {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  color: white;
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+footer {
+  height: 80px;
+  width: 100vw;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 740px) {
+  .box {
+    width: 100%;
+  }
+}
